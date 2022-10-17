@@ -4,8 +4,10 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"start": "ts-node ./src/getShortestDistance ./examples/input.txt",
-		"test": "ts-node ./src/getShortestDistance ./examples/test.txt"
+		"start:total": "ts-node ./src/getTotalOrbits ./examples/input.txt COM",
+		"test:total": "ts-node ./src/getTotalOrbits ./examples/test.txt COM",
+		"start:distance": "ts-node ./src/getShortestDistance ./examples/input.txt YOU SAN",
+		"test:distance": "ts-node ./src/getShortestDistance ./examples/test.txt B L"
 	},
 	"keywords": [],
 	"author": "",
